@@ -5,7 +5,7 @@ heatmap_calculationt
 intput：3-testcase.txt 3-testcontrol.txt   
 output: two files ,test_matrix.txt is what we want.  
 command:  
-```python2 heatmap_calculationt.py 3-testcase.txt 3-testcontrol.txt test.txt test_matrix.txt```
+```python2 hapmap_calculation.py 3-testcase.txt 3-testcontrol.txt test.txt test_matrix.txt```
 
 processing:
 ```
@@ -23,7 +23,7 @@ drwxr-xr-x 10 hpli Biouser 4096 4月  28 10:50 ../
 -rw-r--r--  1 hpli Biouser 5116 4月  28 16:42 3-testcase.txt
 -rw-r--r--  1 hpli Biouser 5270 4月  28 16:43 3-testcontrol.txt
 -rw-r--r--  1 hpli Biouser 9072 4月  28 16:41 4-nucleobase_count.py
-$ python2 heatmap_calculation.py 3-testcase.txt 3-testcontrol.txt test.txt test_matrix.txt
+$ python2 hapmap_calculation.py 3-testcase.txt 3-testcontrol.txt test.txt test_matrix.txt
 SNPID = rs11252546
 SNPID = rs7909677
 SNPID = rs10904494
